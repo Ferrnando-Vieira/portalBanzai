@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="styles/public/base.css">
+    <title>Honda Banzai</title>
+</head>
+<body>
+    <div id="corpo">
+        <header>
+            <nav>
+                <a href="#inicio"><img src="assets/home-button.svg" alt="inicio"></a>
+                <a href="#"><img src="assets/map-marker.svg" alt="local"></a>
+                <a href="#contato"><img src="assets/contact.svg" alt="contato"></a>
+            </nav>
+        </header>
+    
+        <div id="inicio">
+            <img src="assets/logo.svg" alt="Honda Banzai">
+            <div class="centralAtendimento">
+                <span class="txtAtendimento">CENTRAL DE ATENDIMENTO</span>
+                <a href="tel:+553131231234"><span class="telAtendimento">(31) 3123-1234</span></a>
+            </div>
+            <img src="assets/civic-preto-lado.svg" alt="Honda Civic preto">
+            <img src="assets/civic-gen-10.svg" alt="Civi geração 10">
+        </div>
+
+        <div id="contato">
+            <div id="tituloContato">
+                <img src="assets/telephone.svg" id="icoTel" alt="">
+                <h1>Solicitar um <strong class="strongTit">CONTATO</strong></h1>
+            </div>
+
+            <form action="">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type="tel" name="tel" id="tel" placeholder="Telefone">
+                <select name="horario" id="horario">
+                    <option value="">Escolha o horario</option>
+                    <option value="1">08:30</option>
+                    <option value="2">12:30</option>
+                    <option value="3">15:30</option>
+                </select>
+                <select name="unidade" id="unidade">
+                    <option value="">Escolha a unidade</option>
+                    <option value="1">Pampulha</option>
+                    <option value="2">Contorno</option>
+                </select>
+                <button type="submit">AGENDAR TEST DRIVE</button>
+            </form>
+        </div>
+
+        <div id="emocaoDirigir">
+            <h1>A EMOÇÃO DE DIRIGIR LEVA VOCÊ MAIS LONGE</h1>
+            <img src="assets/civic-frente-costas.svg" alt="Frente e traseira de um civic prata">
+            <p>O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre. 
+                Ele garante a melhor dirigibilidade com o máximo em sofisticação e conforto, atribuído por seu design interno e 
+                diferenciada ergonomia.
+            </p>
+        </div>
+
+        <div id="prepareNovo">
+            <div id="degrade">
+                <div id="txtPrepare">
+                    <h1>PREPARE-SE PARA ALGO REALMENTE NOVO</h1>
+                    <p>O Novo Civic Geração 10 vem completo de série. Conheça a versão perfeita para você.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="descricao"></div>
+
+        <div id="modelos">
+            <h1>PRONTO PARA TER UM HONDA?</h1>
+            <p>Conheça os últimos grandes lançamentos da honda.</p>
+            <select name="selectModelos" id="selectModelos" style="background: url(assets/accord.svg) no-repeat;">
+                <option value="accord">Accord</option>
+                <option value="city">City</option>
+                <option value="fit">Fit</option>
+            </select>
+            <a href="#"><span>CONHEÇA MAIS</span></a>
+        </div>
+
+        <div id="informacoes">
+            <div id="localizacao" class="btnInfo">
+                <a href="https://www.google.com.br/maps/search/Banzai+honda/@-19.8649657,-43.9588543,13z/data=!3m1!4b1" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/map-marker.svg" id="markerLocal" alt="">
+                    <h1>Encontre uma <strong class="strongTit">CONCESSIONÁRIA</strong></h1>
+                </a>
+            </div>
+
+            <div class="centralAtendimento btnInfo">
+                <a href="tel:+553131231234">
+                    <span class="txtAtendimento">CENTRAL DE ATENDIMENTO</span>
+                    <span class="telAtendimento">(31) 3123-1234</span>
+                </a>
+            </div>
+
+            <h2>SIGA A BANZAI NAS REDES SOCIAIS</h2>
+
+            <div id="redesSociais">
+                <a href="https://pt-br.facebook.com/BanzaiHonda/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/logo-facebook.svg" alt="Facebook Banzai">
+                </a>
+                <a href="https://twitter.com/hondabanzai" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/logo-twitter.svg" alt="Twitter Banzai">
+                </a>
+                <a href="https://www.instagram.com/banzaihonda_bh/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/logo-instagram.svg" alt="Instagram Banzai">
+                </a>
+            </div>
+
+        </div>
+
+        <footer>
+            <img src="assets/logo.svg" alt="logotipo banzai">
+            <div id="txtFooter">
+                <span>Todos juntos fazem um trânsito melhor</span>
+                <img src="assets/logo-ibama.svg" alt="logotipo ibama">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

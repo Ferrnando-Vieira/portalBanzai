@@ -1,0 +1,15 @@
+{
+  "dependencies": {},
+  "name": "portalBanzai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass styles/app/base.scss styles/public/base.css"
+  },
+  "repository": "https://github.com/Ferrnando-Vieira/portalBanzai",
+  "author": "Fernando Vieira <nandovieira2@yahoo.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

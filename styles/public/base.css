@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto'; }
+
+h1, p {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.strongTit {
+  color: #DF0209;
+  font-size: 1.375em;
+  font-weight: 500; }
+
+input, select {
+  background-color: #F0F0F0;
+  color: #959595;
+  width: 90%;
+  height: 36px;
+  font-size: 0.875em;
+  border-radius: 4px;
+  border: 1px solid #D6D6D6;
+  margin-bottom: 5px;
+  padding-left: 10%; }
+
+select {
+  width: 100%; }
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: #EEE;
+  width: 100%;
+  height: 40px; }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; }
+
+#corpo {
+  overflow-x: hidden;
+  position: relative; }
+
+.centralAtendimento {
+  display: flex;
+  flex-direction: column; }
+
+.txtAtendimento {
+  font-size: 1em;
+  color: #727B7A; }
+
+.telAtendimento {
+  font-size: 1.625em;
+  color: #DF0209; }
+
+#inicio {
+  margin: 70px 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  #inicio .centralAtendimento {
+    margin: 28px 0 18px 0; }
+
+#contato {
+  margin: 40px auto auto;
+  width: 80%;
+  background-color: #EEE;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px; }
+  #contato form {
+    display: flex;
+    flex-direction: column; }
+    #contato form #nome {
+      background: url(../../assets/person.svg) no-repeat 2.5% 50%; }
+    #contato form #email {
+      background: url(../../assets/input-contact.svg) no-repeat 2.5% 50%; }
+    #contato form #tel {
+      background: url(../../assets/input-telephone.svg) no-repeat 2.5% 50%; }
+    #contato form #horario {
+      background: url(../../assets/time.svg) no-repeat 2.5% 50%; }
+    #contato form #unidade {
+      background: url(../../assets/input-marker.svg) no-repeat 2.5% 50%; }
+    #contato form button {
+      font-weight: 700;
+      background-color: #1CB72A;
+      border-radius: 4px;
+      height: 45px;
+      width: 100%;
+      color: #FFF;
+      font-size: 0.875em;
+      border: none; }
+
+#tituloContato {
+  display: flex;
+  margin-bottom: 20px; }
+  #tituloContato h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875em; }
+
+#icoTel {
+  margin-right: 11px; }
+
+#emocaoDirigir {
+  margin: 45px 0 30px 0;
+  width: 80%;
+  margin: 43px auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+  #emocaoDirigir h1 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 2em; }
+  #emocaoDirigir img {
+    margin: 35px 0; }
+  #emocaoDirigir p {
+    font-size: 1.13em;
+    line-height: 1.5em; }
+
+#prepareNovo {
+  height: 415px;
+  width: 100%;
+  background: url(../../assets/painel-civic.svg) no-repeat;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px; }
+
+#degrade {
+  margin-top: 280px;
+  background: linear-gradient(0deg, black 25%, rgba(255, 255, 255, 0) 100%);
+  height: 100%; }
+
+#txtPrepare {
+  width: 90%;
+  margin: auto;
+  text-align: center; }
+  #txtPrepare h1 {
+    width: 90%;
+    margin: auto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 1.5em; }
+  #txtPrepare p {
+    margin-top: 5px;
+    font-size: 1em;
+    line-height: 1.31em; }
+
+#modelos {
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  #modelos h1 {
+    font-weight: 500;
+    font-size: 1.5em;
+    font-style: italic;
+    width: 90%;
+    margin: auto; }
+  #modelos p {
+    font-size: 1em; }
+  #modelos select {
+    margin: 21px auto 10px auto;
+    height: 196px;
+    width: 100%;
+    border: 1px solid #D5D5D5;
+    background-color: #FFF; }
+  #modelos a {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px; }
+    #modelos a span {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-weight: 300;
+      color: #000;
+      font-size: 0.875em;
+      height: 100%; }
+
+#informacoes {
+  height: 339px;
+  background-color: #EEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #informacoes .centralAtendimento a {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  #informacoes h2 {
+    width: 75%;
+    font-size: 1.125em;
+    text-align: center;
+    margin: 26px auto;
+    font-style: italic;
+    font-weight: 500; }
+
+.btnInfo {
+  display: flex;
+  align-items: center;
+  border: 1px solid #DF0209;
+  border-radius: 5px;
+  background-color: #FFF;
+  width: 80%;
+  height: 80px; }
+
+.btnInfo:first-child {
+  margin-bottom: 9px; }
+
+#localizacao a {
+  display: flex;
+  align-items: center; }
+  #localizacao a img {
+    min-width: 27px;
+    min-height: 40px;
+    width: auto;
+    height: auto;
+    margin: auto 17px auto 20px; }
+  #localizacao a h1 {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-weight: 500;
+    font-size: 0.875em; }
+    #localizacao a h1 .strongTit {
+      font-size: 22px; }
+
+#redesSociais {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%; }
+
+footer {
+  min-height: 181px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  footer img {
+    max-width: 110px;
+    max-height: 29px;
+    width: auto;
+    height: auto; }
+
+#txtFooter {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.75em;
+  color: #707070;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  #txtFooter span {
+    margin-right: 20px; }
+  #txtFooter img {
+    min-width: 46px;
+    min-height: 52px; }

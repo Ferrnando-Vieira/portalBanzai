@@ -11,6 +11,8 @@ $fonte-cinza: #727B7A;
 $fonte-cinza-claro: #959595;
 $borda-cinza-claro: #D6D6D6;
 $borda-cinza: #D5D5D5;
+$borda-carousel: #707070;
+$carousel-ativo: #808080;
 
 //Tamanhos
 $altura-header: 40px; 
@@ -228,6 +230,65 @@ header {
     }
 }
 
+#descricao {
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 370px;
+
+    img {
+        padding: 6.4px;
+        border: 1px solid $borda-cinza;
+    }
+
+    h1 {
+        font-style: italic;
+        font-size: 1.25em;
+        margin: 10px auto;
+    }
+
+    p {
+        width: 100%;
+        font-size: 0.875em;
+    }
+
+    .carousel-caption {
+        position: initial !important;
+        color: $bg-preto;
+    }
+    
+    .carousel-indicators {
+        bottom: -15px;
+
+        li {
+            border: 1px solid $borda-carousel;
+            background-color: $borda-cinza;
+        }
+
+        .active {
+            background-color: $carousel-ativo;
+        }
+    }
+
+    .carousel-control.right {
+        background-image: none;
+    }
+
+    .carousel-control.left {
+        background-image: none;
+    }
+
+    .item {
+        img {
+            display: initial;
+        }
+    }
+}
+
 #modelos {
     display: flex;
     width: 80%;
@@ -256,6 +317,7 @@ header {
         width: 100%;
         border: 1px solid $borda-cinza;
         background-color: $fonte-branco;
+        text-indent: -9999px;
     }
 
     a {
